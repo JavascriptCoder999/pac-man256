@@ -3,13 +3,13 @@
 $this.move=function(){
   $this.moveY(10);
 }
-$this.move=function(){
+$this.move1=function(){
   $this.moveY(-10);
 }
-$this.move=function(){
+$this.move2=function(){
   $this.moveX(10);
 }
-$this.move=function(){
+$this.move3=function(){
   $this.moveX(-10);
 }
 //Note: BINARY IS HARD
