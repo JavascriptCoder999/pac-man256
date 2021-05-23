@@ -2,3 +2,19 @@ var lives=3;
 if($this.isTouching(Blinky||isTouching(Clyde||isTouching(Icy||isTouching(Pinky)))){
 lives=<-1;
    }
+$this.isPellet=function(){
+   if($this.isToucing(pellet)){
+      if($this.isTouching(Blinky)){
+         Blinky.toggleVisible(false);
+      }
+      if($this.isTouching(Clyde)){
+         Clyde.togleVisible(false);
+      }
+      if($this.isTouching(Icy)){
+         Icy.togleVisible(false);
+      }
+      if($this.isTouching(Pinky)){
+         Pinky.togleVisible(false);
+      }
+   }
+}
