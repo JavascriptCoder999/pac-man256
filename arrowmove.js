@@ -1,12 +1,16 @@
 if(isKeyPressed(Keys.w||isKeyPressed(Keys.upArrow))){
   $this.moveY(10);
+  $this.frameIndex(0);
 }
 if(isKeyPressed(Keys.a||isKeyPressed(Keys.leftArrow))){
   $this.moveX(-10);
+  $this.frameIndex(1);
 }
 if(isKeyPressed(Keys.s||isKeyPressed(Keys.downArrow))){
   $this.moveY(-10);
+  $this.frameIndex(2);
 }
 if(isKeyPressed(Keys.d||isKeyPressed(Keys.rightArrow))){
   $this.moveX(10);
+  $this.frameIndex(3);
 }
